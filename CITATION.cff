@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+authors:
+  - family-names: Intaraphaisal
+    given-names: Veeranat
+    orcid: "0000-0000-0000-0000"
+title: "MaMeeFarm™ — Proof-of-Work Farm Data Architecture"
+version: "2025.10"
+date-released: "2025-10-15"
+repository-code: "https://github.com/MaMeeFarm-Data/MaMeeFarm-Data-Metadata"
+license: "CC-BY-NC-4.0"
