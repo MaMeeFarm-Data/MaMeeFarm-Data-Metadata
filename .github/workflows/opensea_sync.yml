@@ -1,0 +1,27 @@
+name: OpenSea → GitHub (Lite)
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 19 * * *"
+permissions:
+  contents: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install requests
+      - name: Fetch metadata
+        env:
+          OPENSEA_API_KEY: ${{ secrets.OPENSEA_API_KEY }}
+          COLLECTION_SLUGS: ${{ vars.COLLECTION_SLUGS }}
+        run: python fetch_opensea_metadata.py
+      - name: Commit & push
+        run: |
+          git config user.name "opensea-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || (git commit -m "sync: opensea metadata" && git push)
