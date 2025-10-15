@@ -2,7 +2,7 @@ name: OpenSea → GitHub (Lite)
 
 on:
   schedule:
-    - cron: "0 19 * * *"   # 02:00 น. เวลาไทย (ICT); cron ใช้ UTC
+    - cron: "0 19 * * *"   # รันทุกวันเวลา 02:00 น. (เวลาไทย)
   workflow_dispatch:
 
 permissions:
@@ -14,14 +14,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
-        with: { python-version: "3.11" }
+        with:
+          python-version: "3.11"
       - run: pip install requests
-      - name: Fetch metadata
+      - name: Fetch metadata from OpenSea
         env:
           OPENSEA_API_KEY: ${{ secrets.OPENSEA_API_KEY }}
           COLLECTION_SLUGS: ${{ vars.COLLECTION_SLUGS }}
         run: python fetch_opensea_metadata.py
-      - name: Commit & push
+      - name: Commit & push results
         run: |
           git config user.name "opensea-bot"
           git config user.email "actions@users.noreply.github.com"
