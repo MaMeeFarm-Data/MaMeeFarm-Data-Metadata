@@ -1,0 +1,144 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "MaMeeFarm Members Directory / รายชื่อสมาชิกมามี๊ฟาร์ม",
+  "description": "รายชื่อมนุษย์ เป็ด และสุนัขทั้งหมดใน MaMeeFarm™ ซึ่งเป็นส่วนหนึ่งของระบบ Proof-of-Life Data System เพื่อยืนยันการมีอยู่จริงของฟาร์มและข้อมูลที่ตรวจสอบได้.",
+  "creator": {
+    "@type": "Person",
+    "name": "P'Toh (พี่โต)",
+    "role": "System Architect & Data Designer / สถาปนิกระบบและผู้ออกแบบข้อมูล",
+    "description": "ผู้สร้างสถาปัตยกรรมข้อมูลของ MaMeeFarm และผู้บันทึกชีวิตจริงของฟาร์มสู่ระบบ Proof-of-Work ระดับโลก โดยไม่ระบุเพศเพื่อความเท่าเทียมและเป็นกลางทางข้อมูล."
+  },
+  "members": [
+    {
+      "name": {
+        "th": "มามี๊ (MaMee)",
+        "en": "MaMee"
+      },
+      "role": "Storyteller / Farm Mother",
+      "gender": "female",
+      "description": "ผู้เล่าเรื่องหลักของฟาร์ม ตัวแทนของความรัก ความอบอุ่น และหัวใจของ MaMeeFarm."
+    },
+    {
+      "name": {
+        "th": "พี่โต (P'Toh)",
+        "en": "P'Toh"
+      },
+      "role": "System Architect / Data Designer",
+      "description": "ผู้สร้างสถาปัตยกรรมข้อมูล Proof-of-Work และ Proof-of-Life ของ MaMeeFarm ซึ่งเป็นรากฐานของระบบข้อมูลโปร่งใสระดับโลก."
+    },
+    {
+      "name": {
+        "th": "เป็ด 7 ตัวแห่งความหวัง",
+        "en": "7 Ducks of Hope"
+      },
+      "type": "AnimalGroup",
+      "animalType": "duck",
+      "gender": "female",
+      "count": 7,
+      "members": [
+        {"name_th": "เป็ดตัวที่ 1", "name_en": "Duck 1"},
+        {"name_th": "เป็ดตัวที่ 2", "name_en": "Duck 2"},
+        {"name_th": "เป็ดตัวที่ 3", "name_en": "Duck 3"},
+        {"name_th": "เป็ดตัวที่ 4", "name_en": "Duck 4"},
+        {"name_th": "เป็ดตัวที่ 5", "name_en": "Duck 5"},
+        {"name_th": "เป็ดตัวที่ 6", "name_en": "Duck 6"},
+        {"name_th": "เป็ดตัวที่ 7", "name_en": "Duck 7"}
+      ],
+      "description": "เป็ดสาวทั้งเจ็ดตัวซึ่งเป็นต้นกำเนิดของข้อมูล Proof-of-Work ในฟาร์ม และสัญลักษณ์แห่งความหวังของ MaMeeFarm."
+    },
+    {
+      "name": {
+        "th": "สุนัข 10 ตัวแห่งมามี๊ฟาร์ม",
+        "en": "10 Dogs of MaMeeFarm"
+      },
+      "type": "AnimalGroup",
+      "animalType": "dog",
+      "count": 10,
+      "members": [
+        {
+          "name_th": "ข้าวนึ่ง",
+          "name_en": "Khao Nueng",
+          "gender": "female",
+          "description": "สุภาพ เรียบร้อย ชอบอยู่ใกล้บ่อเป็ดเสมอ."
+        },
+        {
+          "name_th": "ข้าวเหนียว",
+          "name_en": "Khao Niew",
+          "gender": "female",
+          "description": "ขี้อ้อน ร่าเริง มักเดินตามมามี๊ทุกที่."
+        },
+        {
+          "name_th": "ข้าวหอม",
+          "name_en": "Khao Hom",
+          "gender": "female",
+          "description": "กระตือรือร้น ฉลาด ชอบทำให้ฟาร์มมีชีวิตชีวา."
+        },
+        {
+          "name_th": "ข้าวปุ้น",
+          "name_en": "Khao Poon",
+          "gender": "female",
+          "description": "อยากรู้อยากเห็น กล้าหาญ ชอบสำรวจรอบสวน."
+        },
+        {
+          "name_th": "ข้าวปั้น",
+          "name_en": "Khao Pun",
+          "gender": "female",
+          "description": "ภักดีและใจดี เฝ้าพื้นที่เล้าเป็ดทุกคืน."
+        },
+        {
+          "name_th": "นำโชค",
+          "name_en": "Nam Chok",
+          "gender": "male",
+          "description": "หนึ่งในสุนัขตัวผู้ของฟาร์ม ผู้เฝ้าเป็ดตอนเช้า ฉลาดและสังเกตเก่ง."
+        },
+        {
+          "name_th": "นำชัย",
+          "name_en": "Nam Chai",
+          "gender": "male",
+          "description": "พี่น้องของนำโชค ร่าเริงและกล้าหาญ มักอยู่ใกล้พี่โตเสมอ."
+        },
+        {
+          "name_th": "มีตังค์",
+          "name_en": "Mee Tang",
+          "gender": "female",
+          "description": "รักการกิน ชอบรอที่ครัวมามี๊."
+        },
+        {
+          "name_th": "มีเงิน",
+          "name_en": "Mee Ngern",
+          "gender": "female",
+          "description": "อ่อนโยน รักสงบ อยู่ใกล้มามี๊เสมอ."
+        },
+        {
+          "name_th": "มีทอง",
+          "name_en": "Mee Thong",
+          "gender": "female",
+          "description": "ใจดีและสง่างาม ชอบนอนอาบแดดที่หน้าฟาร์ม."
+        }
+      ],
+      "description": "ครอบครัวสุนัขสิบตัวของมามี๊ฟาร์ม มีเพียงสองตัวผู้ (นำโชคและนำชัย) ที่เหลือตัวเมียทั้งหมด เป็นหัวใจที่คอยปกป้องและสร้างสีสันให้กับฟาร์ม."
+    }
+  ],
+  "license": "MMFARM-POL-2025 / CC BY-NC 4.0",
+  "keywords": [
+    "MaMeeFarm",
+    "มามี๊ฟาร์ม",
+    "Proof-of-Life Data",
+    "Real-Work Data",
+    "Ethical AI Dataset",
+    "Farm Members",
+    "สมาชิกฟาร์ม",
+    "Lampang Thailand",
+    "ลำปาง ประเทศไทย",
+    "7 Ducks of Hope",
+    "เป็ดแห่งความหวัง",
+    "10 Dogs of MaMeeFarm",
+    "หมามามี๊ฟาร์ม"
+  ],
+  "dateCreated": "2025-11-01",
+  "spatialCoverage": {
+    "@type": "Place",
+    "name": "Lampang, Thailand / ลำปาง ประเทศไทย"
+  }
+}
